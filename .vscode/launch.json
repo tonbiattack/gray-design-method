@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-GrayDesignMethodApplication<gray-design-method>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.graydesignmethod.GrayDesignMethodApplication",
+      "projectName": "gray-design-method",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

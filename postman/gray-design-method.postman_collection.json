@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "ba30b213-9674-4897-8122-6d53446d4b1c",
+		"name": "gray-design-method",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16222702"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/book/search?pageNumber=1&pageSize=10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/book/search?id=9eb2d4ba-b226-11ee-8177-5847ca707853",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"book",
+						"search"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "9eb2d4ba-b226-11ee-8177-5847ca707853"
+						},
+						{
+							"key": "title",
+							"value": "ハリー・ポッターと賢者の石",
+							"disabled": true
+						},
+						{
+							"key": "author",
+							"value": "リリー・フランキー",
+							"disabled": true
+						},
+						{
+							"key": "genre",
+							"value": "ロマンス",
+							"disabled": true
+						},
+						{
+							"key": "publicationYear",
+							"value": "2009",
+							"disabled": true
+						},
+						{
+							"key": "pageNumber",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "pageSize",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "sortKey",
+							"value": "title",
+							"disabled": true
+						},
+						{
+							"key": "sortDirection",
+							"value": "DESC",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
